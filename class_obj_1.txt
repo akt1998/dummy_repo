@@ -1,0 +1,15 @@
+class Bike:
+    #attributes
+    name = "Hayabusa"
+    body = "GEN III"
+    engine = 1400
+
+    #custom method
+    def demo(self):
+        print(self.name)
+        print(self.body)
+        print(self.engine)
+
+obj = Bike()
+obj.demo()
+    
